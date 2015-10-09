@@ -7,7 +7,7 @@
 //
 
 #import "MPMoviePlayerController+CurrentPlaybackTimeMonitor.h"
-
+#import <objc/runtime.h>
 
 @interface UIView (MonitorCurrentTimeBlocks_Private)
 
